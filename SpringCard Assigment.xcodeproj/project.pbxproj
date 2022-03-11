@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05D550B62E906513C040E93F /* Pods_SpringCard_Assigment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2988FCB47FA5BFED39A454B1 /* Pods_SpringCard_Assigment.framework */; };
+		84A2AEB2F549BADA6A765E55 /* Pods_SpringCard_AssigmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A45B6FF0FCC3A57976B97A /* Pods_SpringCard_AssigmentTests.framework */; };
+		873515FBD25B2E477971F1C7 /* Pods_SpringCard_Assigment_SpringCard_AssigmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099932253C2357593E2A2A2E /* Pods_SpringCard_Assigment_SpringCard_AssigmentUITests.framework */; };
 		CF10FB0D27CBA3B6005778F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB0C27CBA3B6005778F5 /* AppDelegate.swift */; };
 		CF10FB0F27CBA3B6005778F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB0E27CBA3B6005778F5 /* SceneDelegate.swift */; };
-		CF10FB1127CBA3B6005778F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB1027CBA3B6005778F5 /* ViewController.swift */; };
-		CF10FB1427CBA3B6005778F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10FB1227CBA3B6005778F5 /* Main.storyboard */; };
 		CF10FB1627CBA3B7005778F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF10FB1527CBA3B7005778F5 /* Assets.xcassets */; };
 		CF10FB1927CBA3B7005778F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10FB1727CBA3B7005778F5 /* LaunchScreen.storyboard */; };
 		CF10FB2427CBA3B7005778F5 /* SpringCard_AssigmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB2327CBA3B7005778F5 /* SpringCard_AssigmentTests.swift */; };
 		CF10FB2E27CBA3B7005778F5 /* SpringCard_AssigmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB2D27CBA3B7005778F5 /* SpringCard_AssigmentUITests.swift */; };
 		CF10FB3027CBA3B7005778F5 /* SpringCard_AssigmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB2F27CBA3B7005778F5 /* SpringCard_AssigmentUITestsLaunchTests.swift */; };
+		CF10FB4127CBAE50005778F5 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB3E27CBAE50005778F5 /* NetworkConstants.swift */; };
+		CF10FB4227CBAE50005778F5 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB3F27CBAE50005778F5 /* ApiRouter.swift */; };
+		CF10FB4327CBAE50005778F5 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB4027CBAE50005778F5 /* ApiClient.swift */; };
+		CF10FB4627CE56D2005778F5 /* CurrencyRatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10FB4527CE56D2005778F5 /* CurrencyRatesModel.swift */; };
+		CF48B06827D9246B00478E04 /* CustomeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B06727D9246B00478E04 /* CustomeError.swift */; };
+		CF48B06A27D9260B00478E04 /* CurrencyRatesModelDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B06927D9260B00478E04 /* CurrencyRatesModelDTO.swift */; };
+		CF48B06D27D9265F00478E04 /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B06C27D9265F00478E04 /* Extension+Double.swift */; };
+		CF48B06F27D92FF600478E04 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF48B06E27D92FF600478E04 /* Colors.xcassets */; };
+		CF48B07127D9312D00478E04 /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B07027D9312D00478E04 /* Extension+ViewController.swift */; };
+		CF48B07627D9541600478E04 /* CurrenciesConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B07427D9541600478E04 /* CurrenciesConverterViewController.swift */; };
+		CF48B07727D9541600478E04 /* CurrenciesConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF48B07527D9541600478E04 /* CurrenciesConverterViewController.xib */; };
+		CF48B07B27DAB15300478E04 /* CurrenciesConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B07A27DAB15300478E04 /* CurrenciesConverterViewModel.swift */; };
+		CF48B07D27DAB22400478E04 /* CurrencyConversionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF48B07C27DAB22400478E04 /* CurrencyConversionModel.swift */; };
+		CFA8284727CE5DAC0055995E /* CurrenciesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8284527CE5DAC0055995E /* CurrenciesListViewController.swift */; };
+		CFA8284827CE5DAC0055995E /* CurrenciesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA8284627CE5DAC0055995E /* CurrenciesListViewController.xib */; };
+		CFA8284E27CE5EDA0055995E /* CurrencyRateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8284C27CE5EDA0055995E /* CurrencyRateTableViewCell.swift */; };
+		CFA8284F27CE5EDA0055995E /* CurrencyRateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA8284D27CE5EDA0055995E /* CurrencyRateTableViewCell.xib */; };
+		CFCD1CBD27CE636C00FC7231 /* CurrenciesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCD1CBC27CE636C00FC7231 /* CurrenciesListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099932253C2357593E2A2A2E /* Pods_SpringCard_Assigment_SpringCard_AssigmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringCard_Assigment_SpringCard_AssigmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2988FCB47FA5BFED39A454B1 /* Pods_SpringCard_Assigment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringCard_Assigment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E4FA0D2928241A5D96176F /* Pods-SpringCard Assigment-SpringCard AssigmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringCard Assigment-SpringCard AssigmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpringCard Assigment-SpringCard AssigmentUITests/Pods-SpringCard Assigment-SpringCard AssigmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A071F11E457A442C3874FD5 /* Pods-SpringCard Assigment-SpringCard AssigmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringCard Assigment-SpringCard AssigmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SpringCard Assigment-SpringCard AssigmentUITests/Pods-SpringCard Assigment-SpringCard AssigmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B3D18A3A2F93FC8E90124B0 /* Pods-SpringCard Assigment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringCard Assigment.debug.xcconfig"; path = "Target Support Files/Pods-SpringCard Assigment/Pods-SpringCard Assigment.debug.xcconfig"; sourceTree = "<group>"; };
+		7C37F55DA2077B9149AE6975 /* Pods-SpringCard AssigmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringCard AssigmentTests.release.xcconfig"; path = "Target Support Files/Pods-SpringCard AssigmentTests/Pods-SpringCard AssigmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		92212DB495C927574A157566 /* Pods-SpringCard Assigment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringCard Assigment.release.xcconfig"; path = "Target Support Files/Pods-SpringCard Assigment/Pods-SpringCard Assigment.release.xcconfig"; sourceTree = "<group>"; };
+		A3A45B6FF0FCC3A57976B97A /* Pods_SpringCard_AssigmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpringCard_AssigmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF10FB0927CBA3B6005778F5 /* SpringCard Assigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpringCard Assigment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF10FB0C27CBA3B6005778F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF10FB0E27CBA3B6005778F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF10FB1027CBA3B6005778F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF10FB1327CBA3B6005778F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF10FB1527CBA3B7005778F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF10FB1827CBA3B7005778F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF10FB1A27CBA3B7005778F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,25 @@
 		CF10FB2927CBA3B7005778F5 /* SpringCard AssigmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpringCard AssigmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF10FB2D27CBA3B7005778F5 /* SpringCard_AssigmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCard_AssigmentUITests.swift; sourceTree = "<group>"; };
 		CF10FB2F27CBA3B7005778F5 /* SpringCard_AssigmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCard_AssigmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF10FB3E27CBAE50005778F5 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		CF10FB3F27CBAE50005778F5 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		CF10FB4027CBAE50005778F5 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		CF10FB4527CE56D2005778F5 /* CurrencyRatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRatesModel.swift; sourceTree = "<group>"; };
+		CF48B06727D9246B00478E04 /* CustomeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeError.swift; sourceTree = "<group>"; };
+		CF48B06927D9260B00478E04 /* CurrencyRatesModelDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRatesModelDTO.swift; sourceTree = "<group>"; };
+		CF48B06C27D9265F00478E04 /* Extension+Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Double.swift"; sourceTree = "<group>"; };
+		CF48B06E27D92FF600478E04 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CF48B07027D9312D00478E04 /* Extension+ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
+		CF48B07427D9541600478E04 /* CurrenciesConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesConverterViewController.swift; sourceTree = "<group>"; };
+		CF48B07527D9541600478E04 /* CurrenciesConverterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrenciesConverterViewController.xib; sourceTree = "<group>"; };
+		CF48B07A27DAB15300478E04 /* CurrenciesConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesConverterViewModel.swift; sourceTree = "<group>"; };
+		CF48B07C27DAB22400478E04 /* CurrencyConversionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionModel.swift; sourceTree = "<group>"; };
+		CFA8284527CE5DAC0055995E /* CurrenciesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesListViewController.swift; sourceTree = "<group>"; };
+		CFA8284627CE5DAC0055995E /* CurrenciesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrenciesListViewController.xib; sourceTree = "<group>"; };
+		CFA8284C27CE5EDA0055995E /* CurrencyRateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRateTableViewCell.swift; sourceTree = "<group>"; };
+		CFA8284D27CE5EDA0055995E /* CurrencyRateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyRateTableViewCell.xib; sourceTree = "<group>"; };
+		CFCD1CBC27CE636C00FC7231 /* CurrenciesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesListViewModel.swift; sourceTree = "<group>"; };
+		DB112AB6951D5DB503942804 /* Pods-SpringCard AssigmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringCard AssigmentTests.debug.xcconfig"; path = "Target Support Files/Pods-SpringCard AssigmentTests/Pods-SpringCard AssigmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D550B62E906513C040E93F /* Pods_SpringCard_Assigment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A2AEB2F549BADA6A765E55 /* Pods_SpringCard_AssigmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +116,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873515FBD25B2E477971F1C7 /* Pods_SpringCard_Assigment_SpringCard_AssigmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B88B423DD7546F005F7ACDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2988FCB47FA5BFED39A454B1 /* Pods_SpringCard_Assigment.framework */,
+				099932253C2357593E2A2A2E /* Pods_SpringCard_Assigment_SpringCard_AssigmentUITests.framework */,
+				A3A45B6FF0FCC3A57976B97A /* Pods_SpringCard_AssigmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB61ED5E1D7FA74BC3F31ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B3D18A3A2F93FC8E90124B0 /* Pods-SpringCard Assigment.debug.xcconfig */,
+				92212DB495C927574A157566 /* Pods-SpringCard Assigment.release.xcconfig */,
+				39E4FA0D2928241A5D96176F /* Pods-SpringCard Assigment-SpringCard AssigmentUITests.debug.xcconfig */,
+				4A071F11E457A442C3874FD5 /* Pods-SpringCard Assigment-SpringCard AssigmentUITests.release.xcconfig */,
+				DB112AB6951D5DB503942804 /* Pods-SpringCard AssigmentTests.debug.xcconfig */,
+				7C37F55DA2077B9149AE6975 /* Pods-SpringCard AssigmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CF10FB0027CBA3B6005778F5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +153,8 @@
 				CF10FB2227CBA3B7005778F5 /* SpringCard AssigmentTests */,
 				CF10FB2C27CBA3B7005778F5 /* SpringCard AssigmentUITests */,
 				CF10FB0A27CBA3B6005778F5 /* Products */,
+				CAB61ED5E1D7FA74BC3F31ED /* Pods */,
+				6B88B423DD7546F005F7ACDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +171,15 @@
 		CF10FB0B27CBA3B6005778F5 /* SpringCard Assigment */ = {
 			isa = PBXGroup;
 			children = (
-				CF10FB0C27CBA3B6005778F5 /* AppDelegate.swift */,
+				CF48B07227D953D500478E04 /* CurrenciesConverter */,
+				CFA8284427CE5D880055995E /* CurrenciesList */,
+				CF10FB4427CE56C3005778F5 /* Model */,
+				CF10FB3D27CBAE33005778F5 /* Networking */,
+				CF48B06B27D9263F00478E04 /* Extensions */,
 				CF10FB0E27CBA3B6005778F5 /* SceneDelegate.swift */,
-				CF10FB1027CBA3B6005778F5 /* ViewController.swift */,
-				CF10FB1227CBA3B6005778F5 /* Main.storyboard */,
+				CF10FB0C27CBA3B6005778F5 /* AppDelegate.swift */,
 				CF10FB1527CBA3B7005778F5 /* Assets.xcassets */,
+				CF48B06E27D92FF600478E04 /* Colors.xcassets */,
 				CF10FB1727CBA3B7005778F5 /* LaunchScreen.storyboard */,
 				CF10FB1A27CBA3B7005778F5 /* Info.plist */,
 			);
@@ -127,6 +203,114 @@
 			path = "SpringCard AssigmentUITests";
 			sourceTree = "<group>";
 		};
+		CF10FB3D27CBAE33005778F5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CF10FB4027CBAE50005778F5 /* ApiClient.swift */,
+				CF10FB3F27CBAE50005778F5 /* ApiRouter.swift */,
+				CF10FB3E27CBAE50005778F5 /* NetworkConstants.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CF10FB4427CE56C3005778F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF48B07C27DAB22400478E04 /* CurrencyConversionModel.swift */,
+				CF10FB4527CE56D2005778F5 /* CurrencyRatesModel.swift */,
+				CF48B06727D9246B00478E04 /* CustomeError.swift */,
+				CF48B06927D9260B00478E04 /* CurrencyRatesModelDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF48B06B27D9263F00478E04 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF48B06C27D9265F00478E04 /* Extension+Double.swift */,
+				CF48B07027D9312D00478E04 /* Extension+ViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CF48B07227D953D500478E04 /* CurrenciesConverter */ = {
+			isa = PBXGroup;
+			children = (
+				CF48B07327D953F300478E04 /* ViewController */,
+				CF48B07927DAB13400478E04 /* ViewModel */,
+				CF48B07827D9542000478E04 /* View */,
+			);
+			path = CurrenciesConverter;
+			sourceTree = "<group>";
+		};
+		CF48B07327D953F300478E04 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF48B07427D9541600478E04 /* CurrenciesConverterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CF48B07827D9542000478E04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF48B07527D9541600478E04 /* CurrenciesConverterViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF48B07927DAB13400478E04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF48B07A27DAB15300478E04 /* CurrenciesConverterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFA8284427CE5D880055995E /* CurrenciesList */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8284927CE5EA00055995E /* ViewController */,
+				CFCD1CBB27CE633A00FC7231 /* ViewModel */,
+				CFA8284A27CE5EAE0055995E /* View */,
+			);
+			path = CurrenciesList;
+			sourceTree = "<group>";
+		};
+		CFA8284927CE5EA00055995E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8284527CE5DAC0055995E /* CurrenciesListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CFA8284A27CE5EAE0055995E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8284B27CE5EB40055995E /* Cells */,
+				CFA8284627CE5DAC0055995E /* CurrenciesListViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFA8284B27CE5EB40055995E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8284C27CE5EDA0055995E /* CurrencyRateTableViewCell.swift */,
+				CFA8284D27CE5EDA0055995E /* CurrencyRateTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CFCD1CBB27CE633A00FC7231 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFCD1CBC27CE636C00FC7231 /* CurrenciesListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF10FB3327CBA3B7005778F5 /* Build configuration list for PBXNativeTarget "SpringCard Assigment" */;
 			buildPhases = (
+				B8D8D302EF9C6E47EFF326B0 /* [CP] Check Pods Manifest.lock */,
 				CF10FB0527CBA3B6005778F5 /* Sources */,
 				CF10FB0627CBA3B6005778F5 /* Frameworks */,
 				CF10FB0727CBA3B6005778F5 /* Resources */,
+				53AC795AFBFEC7BC8EAA48B9 /* [CP] Embed Pods Frameworks */,
+				CF10FB3C27CBA5A1005778F5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF10FB3627CBA3B7005778F5 /* Build configuration list for PBXNativeTarget "SpringCard AssigmentTests" */;
 			buildPhases = (
+				C44873D39F69EC59F2303F62 /* [CP] Check Pods Manifest.lock */,
 				CF10FB1B27CBA3B7005778F5 /* Sources */,
 				CF10FB1C27CBA3B7005778F5 /* Frameworks */,
 				CF10FB1D27CBA3B7005778F5 /* Resources */,
@@ -169,9 +357,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF10FB3927CBA3B7005778F5 /* Build configuration list for PBXNativeTarget "SpringCard AssigmentUITests" */;
 			buildPhases = (
+				A2B263851D8C14AF7DE7569A /* [CP] Check Pods Manifest.lock */,
 				CF10FB2527CBA3B7005778F5 /* Sources */,
 				CF10FB2627CBA3B7005778F5 /* Frameworks */,
 				CF10FB2727CBA3B7005778F5 /* Resources */,
+				EE6979A235288D5551E4B123 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +421,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF48B07727D9541600478E04 /* CurrenciesConverterViewController.xib in Resources */,
+				CF48B06F27D92FF600478E04 /* Colors.xcassets in Resources */,
+				CFA8284F27CE5EDA0055995E /* CurrencyRateTableViewCell.xib in Resources */,
 				CF10FB1927CBA3B7005778F5 /* LaunchScreen.storyboard in Resources */,
 				CF10FB1627CBA3B7005778F5 /* Assets.xcassets in Resources */,
-				CF10FB1427CBA3B6005778F5 /* Main.storyboard in Resources */,
+				CFA8284827CE5DAC0055995E /* CurrenciesListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +446,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53AC795AFBFEC7BC8EAA48B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringCard Assigment/Pods-SpringCard Assigment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringCard Assigment/Pods-SpringCard Assigment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpringCard Assigment/Pods-SpringCard Assigment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B263851D8C14AF7DE7569A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpringCard Assigment-SpringCard AssigmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8D8D302EF9C6E47EFF326B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpringCard Assigment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44873D39F69EC59F2303F62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpringCard AssigmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF10FB3C27CBA5A1005778F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		EE6979A235288D5551E4B123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringCard Assigment-SpringCard AssigmentUITests/Pods-SpringCard Assigment-SpringCard AssigmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpringCard Assigment-SpringCard AssigmentUITests/Pods-SpringCard Assigment-SpringCard AssigmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpringCard Assigment-SpringCard AssigmentUITests/Pods-SpringCard Assigment-SpringCard AssigmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF10FB0527CBA3B6005778F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF10FB1127CBA3B6005778F5 /* ViewController.swift in Sources */,
+				CF10FB4127CBAE50005778F5 /* NetworkConstants.swift in Sources */,
+				CF48B06A27D9260B00478E04 /* CurrencyRatesModelDTO.swift in Sources */,
+				CF48B07127D9312D00478E04 /* Extension+ViewController.swift in Sources */,
+				CF10FB4227CBAE50005778F5 /* ApiRouter.swift in Sources */,
+				CF48B07B27DAB15300478E04 /* CurrenciesConverterViewModel.swift in Sources */,
 				CF10FB0D27CBA3B6005778F5 /* AppDelegate.swift in Sources */,
+				CF10FB4627CE56D2005778F5 /* CurrencyRatesModel.swift in Sources */,
+				CF48B07627D9541600478E04 /* CurrenciesConverterViewController.swift in Sources */,
+				CF48B06D27D9265F00478E04 /* Extension+Double.swift in Sources */,
+				CFA8284E27CE5EDA0055995E /* CurrencyRateTableViewCell.swift in Sources */,
+				CF48B07D27DAB22400478E04 /* CurrencyConversionModel.swift in Sources */,
 				CF10FB0F27CBA3B6005778F5 /* SceneDelegate.swift in Sources */,
+				CF10FB4327CBAE50005778F5 /* ApiClient.swift in Sources */,
+				CF48B06827D9246B00478E04 /* CustomeError.swift in Sources */,
+				CFA8284727CE5DAC0055995E /* CurrenciesListViewController.swift in Sources */,
+				CFCD1CBD27CE636C00FC7231 /* CurrenciesListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +623,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF10FB1227CBA3B6005778F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF10FB1327CBA3B6005778F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF10FB1727CBA3B7005778F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +752,7 @@
 		};
 		CF10FB3427CBA3B7005778F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3D18A3A2F93FC8E90124B0 /* Pods-SpringCard Assigment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,7 +763,6 @@
 				INFOPLIST_FILE = "SpringCard Assigment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +780,7 @@
 		};
 		CF10FB3527CBA3B7005778F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92212DB495C927574A157566 /* Pods-SpringCard Assigment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +791,6 @@
 				INFOPLIST_FILE = "SpringCard Assigment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,6 +808,7 @@
 		};
 		CF10FB3727CBA3B7005778F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB112AB6951D5DB503942804 /* Pods-SpringCard AssigmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +829,7 @@
 		};
 		CF10FB3827CBA3B7005778F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C37F55DA2077B9149AE6975 /* Pods-SpringCard AssigmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +850,7 @@
 		};
 		CF10FB3A27CBA3B7005778F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E4FA0D2928241A5D96176F /* Pods-SpringCard Assigment-SpringCard AssigmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +869,7 @@
 		};
 		CF10FB3B27CBA3B7005778F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A071F11E457A442C3874FD5 /* Pods-SpringCard Assigment-SpringCard AssigmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

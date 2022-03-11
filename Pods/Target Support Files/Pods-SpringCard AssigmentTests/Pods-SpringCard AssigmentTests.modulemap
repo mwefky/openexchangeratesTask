@@ -1,0 +1,6 @@
+framework module Pods_SpringCard_AssigmentTests {
+  umbrella header "Pods-SpringCard AssigmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

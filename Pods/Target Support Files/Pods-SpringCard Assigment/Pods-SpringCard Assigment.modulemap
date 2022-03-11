@@ -1,0 +1,6 @@
+framework module Pods_SpringCard_Assigment {
+  umbrella header "Pods-SpringCard Assigment-umbrella.h"
+
+  export *
+  module * { export * }
+}
